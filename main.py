@@ -4,7 +4,7 @@ DEBUG = 0
 
 def simpleFunction(weightedInputs:list):
     result = 0
-
+    #Uma alteração simples
     for i in weightedInputs:
         result += i
 
@@ -87,7 +87,7 @@ class machine():
 def main():
 
     m = machine(simpleFunction, 2)
-    m.execute([3,2,1])
+    m.execute([2,2,1])
 
 
     #n1 = neuron(simpleFunction)
